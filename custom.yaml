@@ -1,0 +1,13 @@
+path: 'money_dataset/'
+train: 'train/images'
+val: 'valid/images'
+
+# class names
+  names:
+  0: 'classic'
+  1: 'acoustic'
+  2: 'bass'
+  3: 'semiAcoustic'
+  4: 'electricGuitar'
+  5: 'ukulele'
+
