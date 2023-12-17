@@ -1,0 +1,9 @@
+train: 'train/images'
+val: 'val/images'
+
+# class names
+names:
+  0: 'classic'
+  1: 'acoustic'
+  2: 'electricGuitar'
+
