@@ -1,0 +1,6 @@
+0 classic
+1 acoustic
+2 bass
+3 semiAcoustic
+4 electricGuitar
+5 ukulele

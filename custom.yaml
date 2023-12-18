@@ -1,9 +1,8 @@
-path: 'money_dataset/'
 train: 'train/images'
-val: 'valid/images'
+val: 'val/images'
 
 # class names
-  names:
+names:
   0: 'classic'
   1: 'acoustic'
   2: 'electricGuitar'
