@@ -1,0 +1,1 @@
+# This is a group project to determine the type of guitar in a mobile application. The project contains a dataset of guitars with labels, a Docker file, and a mobile application that works with a neural model.
