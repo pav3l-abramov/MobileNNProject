@@ -1,11 +1,11 @@
-FROM *****
+FROM python:3.10
 
-RUN apt-get update && \
-   apt-get install --no-install-recommends -y python3 python3-pip
-
-WORKDIR /usr/yolo_v8_app
+WORKDIR /usr/detector_train_up
 COPY ./ultralytics ultralytics
-RUN pip install --no-cache-dir -e ultralytics
 COPY ./train.py train.py
 COPY ./val.py val.py
 COPY ./custom.yaml custom.yaml
+RUN apt-get update && apt-get install -y python3-opencv
+RUN pip install ultralytics
+
+CMD["python", "train.py"]
